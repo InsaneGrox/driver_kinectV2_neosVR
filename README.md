@@ -1,27 +1,27 @@
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I0XK1A)
+Please go and show the original author SDraw some support for creating the original driver this is forked from, thanks!
 
-SteamVR driver for Kinect for XBox One / Kinect 2 for Windows.
+SteamVR driver for Kinect for XBox One / Kinect 2 for Windows 64 bit, NeosVR Edition.
 
 # Usage benefits
 * No additional dependencies for SteamVR ([OpenVR InputEmulator](https://github.com/matzman666/OpenVR-InputEmulator) and others).
 * [Linear smoothing of movement](https://twitter.com/SDraw_/status/1231987403721756672) for bypassing Kinect's 30 frames per second capture. 
+* Emulates 8 tracking points instead of 3
 
 # Installation
 * Install [Kinect for Windows Runtime 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=44559).
-* Create directory `kinectV2` in `<SteamVR_folder>/drivers` directory.
-* Extract latest release archive to `<SteamVR_folder>/drivers/kinectV2`.
+* Extract latest release archive to `<SteamVR_folder>/drivers`.
 * Add line in section `steamvr` of `<Steam_folder>/config/steamvr.vrsettings` file:
   ```JSON
   "activateMultipleDrivers": true,
   ```
 
 # Calibration
-* Launch `kinect_calibrator` from `<SteamVR_folder>/drivers/kinectV2/bin/win##` directory.
+* Launch `kinect_calibrator` from `<SteamVR_folder>/drivers/kinectV2/bin/win64` directory.
 * Allign base position using controllers to match virtual trackers with your hip and legs:
-  * Left controller's touchpad: rotate left, rotate right, rotate up, rotate down. Press grip to reset rotation.
-  * Right controller's touchpad: move right, move left, move up, move down. Press grip to reset position.
+  * Left controller's touchpad/joystick: rotate left, rotate right, rotate up, rotate down. Press grip to reset rotation.
+  * Right controller's touchpad/joystick: move right, move left, move up, move down. Press grip to reset position.
     * If trigger is pressed: move forward, move backward.
-* Press application menu button or quit from SteamVR to save alligned base transformation.
+* Press application menu button, b, or y button or quit from SteamVR to save alligned base transformation.
 
 # Usage
 * Press **Ctrl-T** to disable/enable tracking.
@@ -34,4 +34,4 @@ SteamVR driver for Kinect for XBox One / Kinect 2 for Windows.
 ```
 git submodule update --init --depth=1
 ```
-* Open `driver_kinectV2.sln` in Visual Studio 2013.
+* Open `driver_kinectV2.sln` in Visual Studio Community Edition.
