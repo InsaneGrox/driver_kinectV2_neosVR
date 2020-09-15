@@ -14,6 +14,8 @@ SteamVR driver for Kinect for XBox One / Kinect 2 for Windows 64 bit, NeosVR Edi
   ```JSON
   "activateMultipleDrivers": true,
   ```
+ * Oculus Specific: Right Click on NeosVR in your steam library, click properties, click set launch options, and type in "-SteamVR" in the prompt, if you don't do this, sometimes the oculus software will overtake steamVR and cause you to be unable to use full body tracking.
+
 
 # Calibration
 * Launch `kinect_calibrator` from `<SteamVR_folder>/drivers/kinectV2/bin/win64` directory.
