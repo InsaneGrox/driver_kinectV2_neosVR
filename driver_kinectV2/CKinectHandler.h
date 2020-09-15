@@ -5,7 +5,11 @@ enum JointIndex : size_t
     JI_Hips = 0U,
     JI_LeftAnkle,
     JI_RightAnkle,
-
+    JI_LeftKnee,
+    JI_RightKnee,
+    JI_LeftElbow,
+    JI_RightElbow,
+    JI_Chest,
     JI_Count
 };
 struct JointData

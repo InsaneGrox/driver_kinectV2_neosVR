@@ -3,11 +3,16 @@
 #include "CKinectHandler.h"
 #include "CJointFilter.h"
 
-size_t g_AssignedTrackerJoint[3U]
+size_t g_AssignedTrackerJoint[8U]
 {
     JointType_SpineBase,
     JointType_AnkleLeft,
     JointType_AnkleRight,
+    JointType_KneeLeft,
+    JointType_KneeRight,
+    JointType_ElbowLeft,
+    JointType_ElbowRight,
+    JointType_SpineShoulder,
 };
 
 CKinectHandler::CKinectHandler()

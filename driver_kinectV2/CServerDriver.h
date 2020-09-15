@@ -8,10 +8,14 @@ class CServerDriver final : public vr::IServerTrackedDeviceProvider
 {
     enum TrackerIndex : size_t
     {
-        TI_Hips = 0U,
-        TI_LeftAnkle,
-        TI_RightAnkle,
-
+        JI_Hips = 0U,
+        JI_LeftAnkle,
+        JI_RightAnkle,
+        JI_LeftKnee,
+        JI_RightKnee,
+        JI_LeftElbow,
+        JI_RightElbow,
+        JI_Chest,
         TI_Count
     };
 
