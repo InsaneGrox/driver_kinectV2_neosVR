@@ -5,7 +5,8 @@ SteamVR driver for Kinect for XBox One / Kinect 2 for Windows 64 bit, NeosVR Edi
 # Usage benefits
 * No additional dependencies for SteamVR ([OpenVR InputEmulator](https://github.com/matzman666/OpenVR-InputEmulator) and others).
 * [Linear smoothing of movement](https://twitter.com/SDraw_/status/1231987403721756672) for bypassing Kinect's 30 frames per second capture. 
-* Emulates 8 tracking points instead of 3 ( https://www.youtube.com/watch?v=eTad62qw4Rw , https://www.youtube.com/watch?v=Bmyme_JZLZ4 , https://www.youtube.com/watch?v=IUZPxLGyhw0 )
+* Emulates 8 tracking points instead of 3 ( https://www.youtube.com/watch?v=eTad62qw4Rw , https://www.youtube.com/watch?v=IUZPxLGyhw0 )
+* Actually Tracks foot rotations? (most people with a kinect I see don't have foot rotations tracked) https://www.youtube.com/watch?v=Bmyme_JZLZ4
 
 # Installation
 * Install [Kinect for Windows Runtime 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=44559).
