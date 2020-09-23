@@ -1,6 +1,7 @@
 Please go and show the original author SDraw some support for creating the original driver this is forked from, thanks!
 
 NOTE: This repository is obsolete, SDraw added official support for emulating all 8 trackers inside of neos using a configuration file, the trackers are no longer hard-coded!
+(Changed in the source code, not released as a build yet)
 
 SteamVR driver for Kinect for XBox One / Kinect 2 for Windows 64 bit, NeosVR Edition.
 
